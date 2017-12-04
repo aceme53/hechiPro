@@ -30,7 +30,6 @@
 .login-btn { background-color: #B33B16; color: #fff; }
 .forget-psw-btn, .forget-psw-btn:active, .forget-psw-btn:visited {
     border: none !important;
-    outline: none !important;
     margin-left: -10px;
     text-decoration: none !important;
 }

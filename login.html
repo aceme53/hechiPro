@@ -58,25 +58,28 @@
                         </h3>
                     </div>
                     <div class="panel-body login-panel-body">
-                        <form class="form-horizontal login-form" name="login-form" role="form">
+                        <form class="form-horizontal login-form" name="login-form" role="form"
+                              onsubmit="return false">
                             <div class="form-group">
                                 <label class="col-sm-3 control-label c-w">用户名</label>
                                 <div class="col-sm-8">
-                                    <input type="text" class="form-control" name="username" placeholder="请输入用户名">
+                                    <input type="text" class="form-control" required name="username"
+                                           placeholder="请输入用户名">
                                 </div>
                                 <div class="col-sm-1"></div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 control-label c-w">密码</label>
                                 <div class="col-sm-8">
-                                    <input type="password" class="form-control" name="password" placeholder="请输入密码">
+                                    <input type="password" class="form-control" required name="password"
+                                           placeholder="请输入密码">
                                 </div>
                                 <div class="col-sm-1"></div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-1"></label>
                                 <div class="col-sm-10">
-                                    <button type="button" class="btn login-btn w-100-100">登录</button>
+                                    <button onclick="login()" class="btn login-btn w-100-100">登录</button>
                                 </div>
                                 <div class="col-sm-1"></div>
                             </div>
@@ -108,6 +111,7 @@
     </div>
 </div>
 </body>
-<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="./jquery/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/login.js"></script>
 </html>

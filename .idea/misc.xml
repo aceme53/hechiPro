@@ -10,6 +10,20 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="E:/workspace/RealTimeTA">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://svn.southernfund.com/svn/RealTimeTA" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
