@@ -2,9 +2,403 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>河池人大代表履职服务平台</title>
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/com.css" rel="stylesheet"/>
+    <link href="../css/home.css" rel="stylesheet"/>
 </head>
 <body>
-
+<div class="app home-page">
+    <table width="1000" border="0" cellspacing="0" cellpadding="0"
+           style="border-right:15px #ffffff solid;border-left:15px #ffffff solid;margin: auto;">
+        <tbody>
+        <!--顶部bar-->
+        <tr>
+            <td height="27" valign="top">
+                <div class="fill-all">
+                    <table valign="top" class="home-top-bar">
+                        <tbody>
+                        <tr>
+                            <td width="70" align="right"
+                                style="font-size:12px;color:#000000;padding-left:5px;">今天是：
+                            </td>
+                            <td width="150">
+                                <div id="calendarClock1"></div>
+                            </td>
+                            <td width="180" align="left"
+                                style="font-size:12px;color:#000000;padding-left:17px;">&nbsp;</td>
+                            <td width="300"></td>
+                            <td align="right" style="font-size:12px;color:#000000;padding-right:30px;">
+                                <a href="#"
+                                   onclick="this.style.behavior='url(#default#homepage)';
+                                               this.setHomePage('http://www.zjrd.gov.cn/');">
+                                    <span style="font-size:12px;color:#000000;">设为首页</span>
+                                </a> |
+                                <a href="#"
+                                   onclick="window.external.addFavorite('http://www.zjrd.gov.cn/','浙江人大网')"
+                                   title="浙江人大网"><span
+                                        style="font-size:12px;color:#000000;">加入收藏夹</span>
+                                </a> |
+                                <a href="#">
+                                    <span style="font-size:12px;color:#000000;">联系我们</span>
+                                </a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </td>
+        </tr>
+        <!--顶部图片和图片文字-->
+        <tr>
+            <td class="home-top-img">
+                <table border="0" cellspacing="0" cellpadding="0" valign="top" style="padding-top:10px;">
+                    <tbody>
+                    <tr>
+                        <td valign="top" width="100" height="100">
+                            <img src="../images/nationalEmblem.png"/>
+                        </td>
+                        <td valign="middle" width="150" height="100"
+                            style="color: #fff;font-size: large;font-weight: bold;">
+                            <span>中国 · 河池人大</span>
+                        </td>
+                        <td valign="middle" align="left">
+                            <img src="../images/homeTopText.png" style="max-width: 95%;"/>
+                        </td>
+                        <td width="200"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td valign="bottom" style="color: #0783DF;font-size: 2em;">河池市</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <!--顶部导航菜单-->
+        <tr>
+            <td valign="top">
+                <table class="home-nav-bg" cellspacing="0" cellpadding="0" align="center"
+                       width="100%" valign="middle">
+                    <tbody>
+                    <tr>
+                        <td width="100%">
+                            <a href="./home.html">首　页</a>&nbsp;|&nbsp;
+                            <a href="./#">金城江区</a>&nbsp;|&nbsp;
+                            <a href="./#">宜州市</a>&nbsp;|&nbsp;
+                            <a href="./#">南丹市</a>&nbsp;|&nbsp;
+                            <a href="./#">天峨县</a>&nbsp;|&nbsp;
+                            <a href="./#">凤山县</a>&nbsp;|&nbsp;
+                            <a href="./#">东兰县</a>&nbsp;|&nbsp;
+                            <a href="./#">巴马瑶族自治县</a>&nbsp;|&nbsp;
+                            <a href="./#">大化瑶族自治县</a>&nbsp;|&nbsp;
+                            <a href="./#">罗城仫佬自治县</a>&nbsp;|&nbsp;
+                            <a href="./#">环江毛族自治县</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <!--省级地图框-->
+        <tr>
+            <td valign="top" align="center" style="border-top:7px #ffffff solid;" width="1000">
+                <a href="http://rdh.zjrd.gov.cn/rdh4/" target="_blank">
+                    <img src="../images/provinceMap.png" border="0">
+                </a>
+            </td>
+        </tr>
+        <!--内容部分-->
+        <tr>
+            <td valign="top" align="center">
+                <table width="1000" border="0" cellspacing="0" cellpadding="0" valign="top">
+                    <tbody>
+                    <!-- 表格行 -->
+                    <tr>
+                        <td width="1000" valign="top">
+                            <table width="1000" border="0" valign="top" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                <tr>
+                                    <!-- 表格行的第一列 -->
+                                    <td valign="top">
+                                        <table valign="top" border="0" cellspacing="0" cellpadding="0"
+                                               class="table-header">
+                                            <tbody>
+                                            <tr>
+                                                <td valign="middle" class="table-header-bg">
+                                                    <table width="398" border="0" cellspacing="0" cellpadding="0">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td width="100" align="left" class="lmdz c-b">
+                                                                代表网上联络站点
+                                                            </td>
+                                                            <td width="95" align="right" class="lmdz">
+                                                                <a href="#">更多》</a>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="380" valign="top" class="table-panel-body">
+                                                    <table border="0" cellspacing="0" cellpadding="0" valign="top">
+                                                        <tbody>
+                                                        <!--表格行数据-->
+                                                        <tr style="border-bottom: 1px dashed #ccc;height: 40px;width:380px;">
+                                                            <td align="center" valign="middle">
+                                                                <img src="../images/leftArrow.png">
+                                                            </td>
+                                                            <td height="28" align="left" valign="middle" class="wz"
+                                                                style="border-left:10px #ffffff solid;">
+                                                                <a href="#">
+                                                                <span class="table-body-text">
+                                                                    河池市天峨县六排镇城东路人大代表网上联络
+                                                                </span>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="border-bottom: 1px dashed #ccc;height: 40px;width:380px;">
+                                                            <td align="center" valign="middle">
+                                                                <img src="../images/leftArrow.png">
+                                                            </td>
+                                                            <td height="28" align="left" valign="middle" class="wz"
+                                                                style="border-left:10px #ffffff solid;">
+                                                                <a href="#">
+                                                                <span class="table-body-text">
+                                                                    河池市天峨县六排镇城东路人大代表网上联络
+                                                                </span>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="border-bottom: 1px dashed #ccc;height: 40px;width:380px;">
+                                                            <td align="center" valign="middle">
+                                                                <img src="../images/leftArrow.png">
+                                                            </td>
+                                                            <td height="28" align="left" valign="middle" class="wz"
+                                                                style="border-left:10px #ffffff solid;">
+                                                                <a href="#">
+                                                                <span class="table-body-text">
+                                                                    河池市天峨县六排镇城东路人大代表网上联络
+                                                                </span>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="border-bottom: 1px dashed #ccc;height: 40px;width:380px;">
+                                                            <td align="center" valign="middle">
+                                                                <img src="../images/leftArrow.png">
+                                                            </td>
+                                                            <td height="28" align="left" valign="middle" class="wz"
+                                                                style="border-left:10px #ffffff solid;">
+                                                                <a href="#">
+                                                                <span class="table-body-text">
+                                                                    河池市天峨县六排镇城东路人大代表网上联络
+                                                                </span>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="border-bottom: 1px dashed #ccc;height: 40px;width:380px;">
+                                                            <td align="center" valign="middle">
+                                                                <img src="../images/leftArrow.png">
+                                                            </td>
+                                                            <td height="28" align="left" valign="middle" class="wz"
+                                                                style="border-left:10px #ffffff solid;">
+                                                                <a href="#">
+                                                                <span class="table-body-text">
+                                                                    河池市天峨县六排镇城东路人大代表网上联络
+                                                                </span>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="border-bottom: 1px dashed #ccc;height: 40px;width:380px;">
+                                                            <td align="center" valign="middle">
+                                                                <img src="../images/leftArrow.png">
+                                                            </td>
+                                                            <td height="28" align="left" valign="middle" class="wz"
+                                                                style="border-left:10px #ffffff solid;">
+                                                                <a href="#">
+                                                                <span class="table-body-text">
+                                                                    河池市天峨县六排镇城东路人大代表网上联络
+                                                                </span>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <!-- 表格行的第二列 -->
+                                    <td width="10"></td>
+                                    <!-- 表格行的第三列 -->
+                                    <td valign="top">
+                                        <table valign="top" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                            <!--表格行的列的第一行-->
+                                            <tr>
+                                                <td valign="top">
+                                                    <table valign="top" border="0" cellspacing="0" cellpadding="0"
+                                                           class="table-header">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td valign="middle" class="table-header-bg">
+                                                                <table width="398" border="0" cellspacing="0"
+                                                                       cellpadding="0">
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td width="100" align="left" class="lmdz c-b">
+                                                                            查询联络站
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td width="380" valign="top" class="table-panel-body">
+                                                                <table border="0" cellspacing="0" cellpadding="0"
+                                                                       valign="top">
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td align="right" style="width: 101px">
+                                                                            <label for="zdcx"
+                                                                                   class="control-label p-r-10 p-t-5">
+                                                                                站点查询
+                                                                            </label>
+                                                                        </td>
+                                                                        <td width="20"></td>
+                                                                        <td align="left">
+                                                                            <input id="zdcx" type="text"
+                                                                                   style="width: 90%"
+                                                                                   class="form-control"/>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <button class="btn btn-primary home-query-btn">
+                                                                                查询
+                                                                            </button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <!--表格行的列的第二行-->
+                                            <tr style="height:18px;"></tr>
+                                            <!--表格行的列的第三行-->
+                                            <tr>
+                                                <td valign="top">
+                                                    <table valign="top" border="0" cellspacing="0" cellpadding="0"
+                                                           class="table-header">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td valign="middle" class="table-header-bg">
+                                                                <table width="398" border="0" cellspacing="0"
+                                                                       cellpadding="0">
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td width="100" align="left" class="lmdz c-b">
+                                                                            查询代表
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td width="380" valign="top" class="table-panel-body"
+                                                                height="">
+                                                                <table border="0" cellspacing="0" cellpadding="0"
+                                                                       valign="top">
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input type="radio" name="dbxm"
+                                                                                   id="qgrddb"/>
+                                                                            <label for="qgrddb">全国人大代表</label>
+                                                                        </td>
+                                                                        <td width="20"></td>
+                                                                        <td>
+                                                                            <input type="radio" name="dbxm"
+                                                                                   id="shejrddb"/>
+                                                                            <label for="shejrddb">省级人大代表</label>
+                                                                        </td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input type="radio" name="dbxm"
+                                                                                   id="shijrddb"/>
+                                                                            <label for="shijrddb">市级人大代表</label>
+                                                                        </td>
+                                                                        <td width="20"></td>
+                                                                        <td>
+                                                                            <input type="radio" name="dbxm"
+                                                                                   id="xjrddb"/>
+                                                                            <label for="xjrddb">县级人大代表</label>
+                                                                        </td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <input type="radio" name="dbxm"
+                                                                                   id="xzrddb"/>
+                                                                            <label for="xzrddb">乡镇人大代表</label>
+                                                                        </td>
+                                                                        <td colspan="3"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="right">
+                                                                            <label for="dbxm"
+                                                                                   class="control-label p-r-10 p-t-5">
+                                                                                代表姓名
+                                                                            </label>
+                                                                        </td>
+                                                                        <td width="20"></td>
+                                                                        <td align="left">
+                                                                            <input id="dbxm" type="text"
+                                                                                   style="width: 90%"
+                                                                                   class="form-control"/>
+                                                                        </td>
+                                                                        <td>
+                                                                            <button class="btn btn-primary home-query-btn">
+                                                                                查询
+                                                                            </button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="h50"></div>
+</div>
 </body>
+<script type="text/javascript" src="../jquery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/home.js"></script>
 </html>
