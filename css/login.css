@@ -1,0 +1,37 @@
+.login-page { background-color: #CB270C; }
+.national-emblem { margin-top: 5px; }
+.main-title {
+    display: inline-block;
+    position: relative;
+    font-weight: 900;
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+.main-title[data-text]::after {
+    content: attr(data-text);
+    color: #f4b66c;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    z-index: 2;
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#EBC574), to(#E48F4C));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub-title { color: #f4b66c; font-weight: bold; font-size: .8em; }
+.provinceMap { max-width: 80%; }
+.login-view { top: 160px; }
+.login-panel { border: 0; border-radius: 10px; margin-bottom: 0; }
+.login-panel-body {
+    background-color: #FD4F1A;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.login-btn { background-color: #B33B16; color: #fff; }
+.forget-psw-btn, .forget-psw-btn:active, .forget-psw-btn:visited {
+    border: none !important;
+    outline: none !important;
+    margin-left: -10px;
+    text-decoration: none !important;
+}
+.login-bottom-img { max-width: 38%; }
