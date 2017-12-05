@@ -57,3 +57,7 @@ table.home-nav-bg td, table.home-nav-bg td a { color: #fff; }
     color: #ffffff;
     width: 100px;
 }
+/************* 金城江区 ***************/
+#jcjqTab li { min-width: 9%; }
+#jcjqTabContent li { padding: 10px 20px 10px 10px; }
+#jcjqTabContent li a { color: #000; }

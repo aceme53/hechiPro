@@ -3,6 +3,13 @@
  */
 $(function () {
     /**
+     * 初始化根据hash加载路由
+     */
+    if (location.hash) {
+        var url = location.hash.substring(location.hash.indexOf("?container=") + 11);
+        $('#container-area').load('./' + url + '.html');
+    }
+    /**
      * 顶部日期获取
      */
     var now = new Date();
@@ -18,6 +25,7 @@ $(function () {
         var url = $(this).attr('data-url');
         if (url) {
             $('#container-area').load('./' + url + '.html');
+            location.hash = "?container=" + url;
         }
     })
 });
