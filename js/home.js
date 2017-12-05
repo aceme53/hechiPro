@@ -44,7 +44,10 @@ $(function () {
         if (newPage) {
             $('#container-area').load('./container.html');
             location.hash = "?container=" + newPage;
+            $('.labelAndTable').show();
             containerInit();
+        } else {
+            $('.labelAndTable').hide();
         }
     });
     /**
