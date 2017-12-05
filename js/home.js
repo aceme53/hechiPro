@@ -47,5 +47,11 @@ $(function () {
             containerInit();
         }
     });
+    /**
+     * 二级菜单点击事件
+     */
+    $(document).on('click', '#containerTabContent a', function () {
+        $('.label-name').text($(this).text());
+    });
     containerInit();
 });
