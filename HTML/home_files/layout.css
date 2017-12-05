@@ -1,0 +1,68 @@
+HTML {
+	FONT: 12px/22px "ËÎÌו"; COLOR: #5f5d5d
+}
+BODY {
+	FONT: 12px/22px "ËÎÌו"; COLOR: #5f5d5d
+}
+
+.main{ background:#def0f5 url(RDnwnum02.gif) repeat-x top center;}
+.SRDnw01 td{ text-align:center; font-weight:bold;}
+.SRDnw02{ width:124px; border:0; height:20px; line-height:20px;}
+.SRDnw03{ background:url(zjgb_ld.gif) no-repeat center center; text-align:center; color:#ffffff;font-size:15px;}
+.SRDnw04{ text-align:center; color:#103C6D;font-size:12px;}
+.SRDnw03 a{ color:#ffffff;font-size:15px;}
+.SRDnw04 a{ color:#103C6D;font-size:12px;}
+.SRDnw03 a:hover{color:#ffffff}
+.SRDnw04 a:hover{color:#103C6D}
+
+.SRDnw05{ border-bottom:1px solid #e0dfdf;}
+.SRDnw06{ font-weight:bold; font-size:14px;}
+.SRDnw07 td{ border-bottom:1px dashed #cecece;}
+.SRDnw08{ border-bottom:2px solid #cc0000;}
+.SRDnw09{font-weight:bold;}
+.SRDnw010 img{ border:1px solid #e0dfdf;}
+.SRDnw011 td{ background:url(ico012.gif) no-repeat 7px 9px; text-indent:15px;}
+.SRDnw012{ line-height:19px;}
+
+.SRDnw013{ font-weight:bold; font-size:14px; border-bottom:1px dashed #858585;} 
+.SRDnw014{ border-bottom:1px dashed #b5b5b5;}
+
+.SRDnw033{ background:url(RDnwnum011_2.jpg) no-repeat center center; text-align:center; color:#FFFFFF; font-weight:bold; font-size:12px;}
+.SRDnw044{ background:url(RDnwnum012_2.jpg) no-repeat center center; text-align:center; color:#ffffff; font-weight:bold; font-size:12px;}
+.SRDnw033 a:hover{color:#ffffff}
+.SRDnw044 a:hover{color:#ffffff}
+.SRDnw033 a,.SRDnw044 a{color:#ffffff}
+
+
+.SRDnw045 {  background:url(tp_bg2.jpg) repeat-x center center; color:#0E3D71;font-size:12px;font-weight:bold;}
+.SRDnw045 a{ color:#0E3D71;font-size:12px;font-weight:bold;}
+.SRDnw045 a:hover{ color:#0E3D71;font-weight:bold;}
+.SRDnw045 a:visited { color:#0E3D71;font-weight:bold;}
+.SRDnw034 {  background:url(tp_bg.jpg) repeat-x center center;;text-align:center; color:#0E3D71;font-size:12px;}
+.SRDnw034 a{ color:#0E3D71;font-size:12px;}
+.SRDnw034 a:hover{ color:#0E3D71;}
+.SRDnw034 a:visited { color:#0E3D71;}
+
+.menu0{background:url(bg_3.jpg) left center no-repeat; width:76px; height:24px}
+.menu1,.menu1 a,.menu0,.menu0 a{ text-align:center;font-size:14px;font-weight:bold;color:#FFF;}
+.menu0 a:hover{color:#ffffff}
+.menu1 a:hover{color:#ffffff}
+
+.nav0{background:url(bg_left_2_1.jpg) top no-repeat;padding-left:20px;font-size:12px;}
+.nav0, .nav0 a{font-size:12px; color:#FFF; font-weight:bold;padding-left:20px; text-decoration:none}
+.nav1{background:url(bg_left_2_2.jpg) top no-repeat;padding-left:20px;font-size:12px;}
+.nav1, .nav1 a{font-size:12px;color:#000;font-weight:bold;padding-left:20px; text-decoration:none }
+
+
+.SRDnw07 TD {BORDER-BOTTOM: #cecece 1px dashed}
+
+.wz, .wz td, .wz p, .wz div,.wz a{ color:#333; font-size:14px; line-height:25px;}
+.wz a:hover{ color:#C00}
+
+
+.wz_x, .wz_x td, .wz_x p, .wz_x div,.wz_x a{ color:#333; font-size:12px; line-height:25px;}
+.wz_x a:hover{ color:#C00}
+
+body, div, p, input, a{font-size:12px;color:#666; text-decoration:none;}
+td{color:#000;}
+.font_2{color:#000; font-weight:bold; background:url(pic_left_bg.jpg) center bottom no-repeat; padding-left:25px; padding-top:10px;font-size:12px;}
