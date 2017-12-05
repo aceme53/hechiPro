@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="981500e2-aa9f-4ea0-a570-abdbe55f59df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/images/pixviewer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201704/W020170424362142817521.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201706/W020170627277236712811.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201708/W020170804611885780349.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201708/W020170809420312816645.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201711/W020171127386385930401.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201711/W020171127620434689978.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201711/W020171129428095620996.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201711/W020171130282735317464.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201712/W020171201357978286853.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201712/W020171201396697342576.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/rdyw/201712/W020171205593780783466.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/home.html" afterPath="$PROJECT_DIR$/HTML/home.html" />
     </list>
@@ -133,8 +121,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67479676">
-              <caret line="340" column="80" selection-start-line="340" selection-start-column="80" selection-end-line="340" selection-end-column="80" />
+            <state vertical-scroll-proportion="0.18699187">
+              <caret line="334" column="91" selection-start-line="334" selection-start-column="91" selection-end-line="334" selection-end-column="91" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1082,7 +1070,13 @@
       <option name="project" value="LOCAL" />
       <updated>1512464006716</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update">
+      <created>1512465523543</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1512465523543</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1304,8 +1298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67479676">
-          <caret line="340" column="80" selection-start-line="340" selection-start-column="80" selection-end-line="340" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.18699187">
+          <caret line="334" column="91" selection-start-line="334" selection-start-column="91" selection-end-line="334" selection-end-column="91" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
