@@ -11,4 +11,13 @@ $(function () {
     var day = now.getDay();
     var dayArr = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
     $('#calendarClock1').text(mouth + "月" + date + "日   " + dayArr[day]);
+    /**
+     * 导航栏目点击事件
+     */
+    $('.home-nav-bar a').unbind('click').click(function () {
+        var url = $(this).attr('data-url');
+        if (url) {
+            $('#container-area').load('./' + url + '.html');
+        }
+    })
 });
